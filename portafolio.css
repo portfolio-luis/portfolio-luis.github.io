@@ -1,0 +1,92 @@
+body {
+
+    /* Ubicación de la imagen */
+    
+    background-image: url("img/fondo.png");
+    
+    /* Para dejar la imagen de fondo centrada, vertical y
+    horizontalmente */
+    
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    
+    background-repeat: no-repeat;
+    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    
+    background-attachment: fixed;
+    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    
+    background-size: cover;
+    }
+* {margin: 0; padding: 0;} 
+header {display: flex; justify-content: space-around; width: 100%; height: 50px;}
+h1 {font-family: Agency FB; font-size: 3rem; color: azure; line-height: 50px; font-weight: lighter;}
+#subtitulo{ font-family: Agency FB; font-size: 3.5rem; color: azure; font-weight: bolder; line-height: 50px;}
+ul{font-size: 2rem;line-height: 50px;} 
+ul li {display: inline-flex; margin: 10px;}
+ul li a {color: azure;}
+.presentacion {width: 80%; margin: 0 auto; display: block; margin-bottom: 5%;}
+h2{color: azure; text-align: center; font-family: Agency FB; font-size: 2rem; font-weight: lighter; margin-top: 7%;}
+#tit_pag {font-family: Agency FB; font-size: 3rem; font-weight: bolder; text-align: center; color: azure; margin-top: 10%; text-decoration: underline;}
+/*Páginas creadas*/
+#columns{display: flex;}
+.column_one {
+    width: 250px;
+    height: 550px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 5%;
+    background: linear-gradient( #ffffff, #ff0000);
+}
+#helpme {width: 100%;}
+.column_two {
+    width: 250px;
+    height: 550px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 5%;
+    background: linear-gradient( #ffffff, #ffee00);
+}
+#findbus {width: 100%; margin-top: 5%;}
+.column_three {
+    width: 250px;
+    height: 550px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 5%;
+    background: linear-gradient( #ffffff, #0b2e0b);
+}
+#manos {width: 100%; margin-top: -15%;}
+ .resumen {font-size: 1.4rem; font-family: Agency FB; font-weight: 600; text-align: center;}
+ .visit {height: 40px; width: 100%;}
+ #pagehelpme {margin: 0 auto; display: block; font-size: 1.4rem; border-radius: 20%; height: 40px; width: 80%;}
+ #pagefindbus  {margin: 0 auto; display: block; font-size: 1.4rem; border-radius: 20%; height: 40px; width: 80%;}
+#pagedan {margin: 0 auto; display: block; font-size: 1.4rem; border-radius: 20%; height: 40px; width: 80%;}
+
+ /*CONOCIMIENTOS*/
+#conocimientos {margin-bottom: 7%; }
+ h5 {font-size: 3rem; font-family: Agency FB; text-align: center; color: azure; text-decoration: underline;}
+#colum-leng {width: 100%; display: flex; background-color: #ffffff; height: 450px; opacity: 80%; margin-top: 5%;}
+#colum-leng img {width: 100%; line-height: 400px;}
+#colum-leng-three {margin-top: 1.8%;}
+#colum-leng-four {margin-top: 0.4%; width: 33%;}
+#colum-leng-five {width: 37%;}
+
+#progreso {position: relative; width: 100%; display: flex; justify-content: space-around; font-size: 1.5rem; margin-top: -8%;}
+#foter{margin-top: 5%;}
+
+.about {display: flex; border: solid; border-color: #ffffff; margin-top: 12%; margin: 5px; background: linear-gradient(#330000, black);}
+#foter_text {padding:5px; margin:5px; width: 80%; font-size: 1.2rem; font-family: Agency FB;color: #ffffff; text-align: center;}
+footer img {width: 20%; float: left;}
+.sobremi { font-size: 3rem; font-weight: bolder;margin-bottom: 1%; margin-top: 0%; text-decoration: underline;}
+#contact {width: 50%; margin-left: 4%;}
+.tit_cont {font-size: 3rem;font-family: Agency FB; text-align: center; font-weight: bolder; color: #ffffff; text-decoration: underline;}
+.info {font-size: 1.6rem; font-family: Agency FB; color: #ffffff; font-weight: bolder; display: inline-table; text-align: center;}
+#separador {width: 100%;}
+#separadorAlt {width: 100%; background-color: #330000;}
