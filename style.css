@@ -1,4 +1,4 @@
-media screen and (max-width: 600px;){
+
 body {
 
     /* Ubicación de la imagen */
@@ -87,4 +87,4 @@ footer img {width: 20%; float: left;}
 .info {font-size: 1.6rem; font-family: Agency FB; color: #ffffff; font-weight: bolder; display: inline-table; text-align: center;}
 #separador {width: 100%;}
 #separadorAlt {width: 100%; background-color: #330000;}
-}
+
